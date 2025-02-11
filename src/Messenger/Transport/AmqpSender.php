@@ -2,7 +2,7 @@
 
 declare(strict_types = 1);
 
-namespace MusicPlayground\AmqpTransport\Messenger\Sender;
+namespace MusicPlayground\AmqpTransport\Messenger\Transport;
 
 use AMQPException;
 use MusicPlayground\AmqpTransport\Amqp\Publisher;
