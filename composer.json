@@ -1,0 +1,21 @@
+{
+  "name": "music-playground/amqp-transport",
+  "description": "Custom AMQP Transport for Symfony Messenger",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "MusicPlayground\\AmqpTransport\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "WhtsPoint",
+      "email": "whtspoint@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-amqp": "*",
+    "symfony/messenger": "^7.1",
+    "symfony/amqp-messenger": "^7.2"
+  }
+}
